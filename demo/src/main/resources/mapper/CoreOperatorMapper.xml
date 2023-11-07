@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jia.user.mapper.CoreOperatorMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jia.user.entity.CoreOperator">
+        <id column="OPER_ID" property="operId" />
+        <result column="AVATAR" property="avatar" />
+        <result column="ACCOUNT" property="account" />
+        <result column="PASSWORD" property="password" />
+        <result column="SALT" property="salt" />
+        <result column="NAME" property="name" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="SEX" property="sex" />
+        <result column="EMAIL" property="email" />
+        <result column="PHONE" property="phone" />
+        <result column="DEPT_ID" property="deptId" />
+        <result column="STATUS" property="status" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="CREATE_USER" property="createUser" />
+        <result column="UPDATE_TIME" property="updateTime" />
+        <result column="UPDATE_USER" property="updateUser" />
+        <result column="VERSION" property="version" />
+    </resultMap>
+
+</mapper>
