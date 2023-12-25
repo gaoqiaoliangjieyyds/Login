@@ -34,7 +34,7 @@ public class CodeGenerator {
                             .outputDir("C:\\Users\\jia\\Desktop\\Login\\demo\\src\\main\\java"); // 指定输出目录
                 })
                 .packageConfig(builder -> {
-                    builder.parent("com.jia") // 设置父包名
+                    builder.parent("com.jia.demo") // 设置父包名
                             .moduleName("user") // 设置父包模块名
                             .controller("controller")
                             .entity("entity")
@@ -45,7 +45,7 @@ public class CodeGenerator {
                                     "C:\\Users\\jia\\Desktop\\Login\\demo\\src\\main\\resources\\mapper")); // 设置mapperXml生成路径
                 })
                 .strategyConfig(builder -> {
-                    builder.addInclude("core_operator") // 设置需要生成的表名
+                    builder.addInclude("core_role_menu") // 设置需要生成的表名
                             //.addTablePrefix("t_", "c_") // 设置过滤表前缀
                             .serviceBuilder()
                             .formatServiceFileName("%sService")

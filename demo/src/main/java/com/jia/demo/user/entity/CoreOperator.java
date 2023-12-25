@@ -1,4 +1,4 @@
-package com.jia.user.entity;
+package com.jia.demo.user.entity;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;

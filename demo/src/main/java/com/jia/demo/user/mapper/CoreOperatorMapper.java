@@ -1,6 +1,6 @@
-package com.jia.user.mapper;
+package com.jia.demo.user.mapper;
 
-import com.jia.user.entity.CoreOperator;
+import com.jia.demo.user.entity.CoreOperator;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

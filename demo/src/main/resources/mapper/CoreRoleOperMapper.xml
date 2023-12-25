@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jia.demo.user.mapper.CoreRoleOperMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jia.demo.user.entity.CoreRoleOper">
+        <id column="id" property="id" />
+        <result column="oper_id" property="operId" />
+        <result column="role_id" property="roleId" />
+    </resultMap>
+
+</mapper>
